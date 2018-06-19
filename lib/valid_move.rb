@@ -1,6 +1,4 @@
 # code your #valid_move? method here
-input = gets.strip
-index = input.to_i - 1
 def valid_move?(board, index)
   (position_taken?(board, index) == true && index.between(0,9)) ? true : false
 end
